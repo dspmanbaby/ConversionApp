@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuitem_feet_to_meter"
+        android:title="@string/UIFeet_To_Meter"
+        app:showAsAction="never" />
+    <item
+        android:title="Item"
+        app:showAsAction="never" />
+    <item
+        android:title="Item"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuitem_quit"
+        android:title="@string/UIQuit"
+        app:showAsAction="never" />
+</menu>

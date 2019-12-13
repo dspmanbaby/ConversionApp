@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConversionApp</string>
+    <string name="UIFeet_To_Meter">Feet_To_Meter</string>
+    <string name="UIQuit">Quit</string>
+</resources>
