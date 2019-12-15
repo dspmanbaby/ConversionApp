@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">ConversionApp</string>
-    <string name="UIFeet_To_Meter">Feet_To_Meter</string>
+    <string name="UIFeet_To_Meter">Feet To Meters</string>
     <string name="UIQuit">Quit</string>
+    <string name="UIInches_to_Centimeters">Inches to Centimeters</string>
+    <string name="UIPounds_to_Grams">Pounds to Grams</string>
+    <string name="feet">Feet</string>
+    <string name="meters">Meters</string>
 </resources>

@@ -3,14 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/menuitem_feet_to_meter"
+        android:id="@+id/menuitem_feet_to_meters"
         android:title="@string/UIFeet_To_Meter"
         app:showAsAction="never" />
     <item
-        android:title="Item"
+        android:id="@+id/menuitem_inches_to_centimeters"
+        android:title="@string/UIInches_to_Centimeters"
         app:showAsAction="never" />
     <item
-        android:title="Item"
+        android:id="@+id/menuitem_pounds_to_grams"
+        android:title="@string/UIPounds_to_Grams"
         app:showAsAction="never" />
     <item
         android:id="@+id/menuitem_quit"

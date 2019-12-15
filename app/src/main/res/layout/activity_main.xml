@@ -7,13 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/meters"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:text="TextView" />
+        android:layout_marginTop="150dp"
+        android:text="@string/feet"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/editText"
@@ -24,15 +37,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:ems="10"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editText"
-        android:layout_alignParentBottom="false"
+        android:layout_below="@id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Button" />
+        android:layout_marginTop="50dp"
+        android:textSize="24sp" />
+
 </RelativeLayout>
